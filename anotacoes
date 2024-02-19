@@ -1,0 +1,13 @@
+oq é arquitetura de software?
+ - tudo o que é importante para o software
+ - organização fundamental de um sistema, como seus componentes e a relação entre ele e o ambiente
+ - é tudo que faz o ecossistema do desenvolvimento do sistema acontecer 
+ - descrição de como sistema irá se comportar
+ - surgiu com Dijkstra em 60, mas só se tornou popular em 90
+ - garante que todos os requisitos exigidos pelo cliente vai acontecer 
+ definição de camadas:
+    - componentes de software
+    - aplicativos externos
+    - sistemas legados
+    - fatores externos
+ 
