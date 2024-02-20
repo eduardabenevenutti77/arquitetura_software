@@ -8,12 +8,14 @@ o que é arquitetura de software?
  definição de camadas:
     - componentes de software 
     - aplicativos externos
-    - sistemas legados
+    - sistemas ligados
     - fatores externos
- - arquitetura monolítica: aplicação gigante, sem estruturação! (não utilizado na atualidade)
+ - arquitetura monolítica: aplicação gigante, sem estruturação! (não utilizado na atualidade) 
+    - escalabilidade vertical
  - arquitetura em camada: divide o monolíto em partes, cada parte com a sua responsabilidade!
  - arquitetura orientadas em serviço: estrutura distribuida, quebra de serviços em serviços menores
  - arquitetura em microsserviços: utilização de serviços terceirizados
+    - procesos são rodados em módulos separados!
  precisa ser definido:
     - controle e protocolos de comunicação
     - deve atender os requisitos do sistema!
@@ -22,4 +24,27 @@ o que é arquitetura de software?
  - arquitetura com escalabilidade 
  - permite que o sistema altere funcionalidades sem afetar o projeto inteiro
  - redução de esforço na implementação de funcionalidades
- - 
+ habilidade para ser arquiteto de software:
+    - deve entender as estratégias de negócios da empresa
+    - deve dominar técnicas de modelagem
+
+o que é o tech lead?
+ - apoia o arquiteto
+ - possui conhecimento em desenvolvimento que está sendo usado
+ - pensamento analítico
+
+modelos de arquitetura de software:
+ estilos arquiteturais: 
+    - preve como as camadas da arquitetura irão reagir a determinadas ações
+    - soluções para resolver determinadas classes de problemas
+    - promovem conectores, interfaces, regras, combinações e reuso
+    structure: organiza os componentes de um sistema (frameworks)
+    shared memory: compartilhamento de dados entre processo numa estrutura compartilhada (linux)
+    messaging styles: comunicação através de mensagens assíncronas (amazon)
+    adaptive systems: se ajusta automaticamente às mudanças no ambiente (amazon/insta/netflix)
+    distributed systems: conjunto de sistemas que se comunicam através de uma rede (apache)
+ padrões arquiteturais:
+    - solução recorrente para um problema recorrente
+    padrão: resolve um problema específico em determinado contexto
+    estilo: descreve as responsabilidades entre os componentes em alto nível, focando na solução do problema
+    
