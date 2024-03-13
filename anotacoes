@@ -12,6 +12,7 @@ o que é arquitetura de software?
     - fatores externos
  - arquitetura monolítica: aplicação gigante, sem estruturação! (não utilizado na atualidade) 
     - escalabilidade vertical
+    - uma única estrutura
  - arquitetura em camada: divide o monolíto em partes, cada parte com a sua responsabilidade!
  - arquitetura orientadas em serviço: estrutura distribuida, quebra de serviços em serviços menores
  - arquitetura em microsserviços: utilização de serviços terceirizados
@@ -30,6 +31,7 @@ o que é arquitetura de software?
 
 o que é o tech lead?
  - apoia o arquiteto
+ - coordena a equipe
  - possui conhecimento em desenvolvimento que está sendo usado
  - pensamento analítico
 
@@ -47,4 +49,11 @@ modelos de arquitetura de software:
     - solução recorrente para um problema recorrente
     padrão: resolve um problema específico em determinado contexto
     estilo: descreve as responsabilidades entre os componentes em alto nível, focando na solução do problema
-    
+
+revisão - 11/03
+
+o que é arquitetura de software:
+ - descrição do sistema, compreensão de como o sistema irá se comportar
+ - não se olha de maneira rápida, precisa ter uma análise detalhada
+ - o tech lead apoia as decisões do arquiteto
+ 
