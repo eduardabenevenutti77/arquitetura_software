@@ -1,0 +1,25 @@
+abstração prematura: ocorre quando há o desenvolvimento de camadas de abstração sem o entendimento dos requisitos do sistema. Isso dificulta a implentação 
+do código e eleva a complexidade do código 
+
+
+
+modelo anêmico: acontece quando classes são desenvolvidas sem nenhuma lógica associada a elas, de tal modo possuindo apenas dados.
+Isso resulta em um sistema com lógica dispersa, isso torna a manutenção e a realização de testes mais complicados.
+
+
+
+código espagute:
+
+
+desing patters:
+
+1º divide um problema em duas vertentes: contexto e forces
+2º delimita uma solução com base nas vertentes
+3º dessa solução é encontrado 3 pontos: benefícios, consequências e soluções
+
+antiPatterns:
+
+1º tem um contexto e uma causa que delimita uma solução (antipatterns)
+2º dessa solução são delimitados: sintomas e consequências
+3º desses sintomas e consequências é refatorado uma solução
+4º essa solução refatorada mostra os benefícios, as consequências e a solução encontrada
