@@ -56,3 +56,29 @@ o que é arquitetura de software:
  - descrição do sistema, compreensão de como o sistema irá se comportar
  - não se olha de maneira rápida, precisa ter uma análise detalhada
  - o tech lead apoia as decisões do arquiteto
+
+integrações entre sistemas:
+ - conexão entre diferentes softwares para troca de dados de maneira transparente e eficiente
+ união entre softwares - legados (antigos - versões atualizadas) ou modernos !!
+ - sempre existe duas coisas diferentes que precisam se juntar
+ - isso permite que diferentes o uso de : protocolos de comunicação distintos, padrões de dados e tecnologias
+ - permite a construção de sistemas complexos por meio de componentes modulares e independentes
+ - facilita o re-uso de funcionalidades, redução de tempo e custo, aumento de escalabilidade
+ - desafios: fazer uma comunicação transparente e eficaz entre sistemas diferentes, segurança no trafego de informações, validar a qualidade dos dados trafegados, dificuldade na integração
+ - benefícios: produtividade, aumento na experiência do usuário, eficiência operacional e feedbacks (insights) mais abragentes
+SOA: arquitetura orientada a objetos, programas integrados, abstração de serviços (interfaces padronizadas), descoberta de serviços, composição de serviços, autonomia entre serviços, flexibilidade, reutilização de serviços e interoperabilidade
+ padrões de intregrações - mensagens:
+ XML - linguagem de marcação junto com html, mesmas formas de tag, troca de mensagens - SOAP
+ JSON - notação em formato de objeto, usado em rest, amplamente usado em ambiente webs 
+ padrões de intregrações - empresarial:
+ EAI - padrão de conjutos e práticas - usados em ERP, CRM e SCM
+ ETL - usado em sistemas de relatórios
+Arquiteturas centralizadas: todos os serviços se conectam em um ponto central, facilidade na comunicação e coordenação - ESB
+Arquiteturas distribuídas: 
+
+middleware: software que facilitam a comunicação entre sistemas heterogêneos
+APIs: interfaces padronizadas - SOA, sistemas podem se comunicar de maneira independente
+EDA: troca de eventos que facilita a comunicação entre sistemas (várias APIs relacionadas ao mesmo tempo)
+
+desafios: escalabilidade, segurança e manutenção, monitoramento, interoperabilidade e cultura organizacional
+seguranças: autenticação (proteção de dados), autorização (proteção de dados), criptografia (evita a exposição de dados) - VPN, Firewall, SSL/TLS
