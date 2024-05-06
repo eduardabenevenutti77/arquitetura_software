@@ -82,3 +82,11 @@ EDA: troca de eventos que facilita a comunicação entre sistemas (várias APIs 
 
 desafios: escalabilidade, segurança e manutenção, monitoramento, interoperabilidade e cultura organizacional
 seguranças: autenticação (proteção de dados), autorização (proteção de dados), criptografia (evita a exposição de dados) - VPN, Firewall, SSL/TLS
+
+esb: barramento que descobre o protocolo de comunicação entre a aplicação com esb, converte dados para que respeite os modelos de aplicação 
+
+estudos de casos:
+ - erp: automatização de processos rotineiros
+ - sistemas legados: migração para novas tecnologias
+ - sistemas de saúde: intregração de processos dentro do hospital para que melhore a qualidade do atendimento e a eficiência operacional
+ 
